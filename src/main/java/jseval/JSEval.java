@@ -26,10 +26,10 @@ public class JSEval extends Plugin {
         handler.<Player>register("return", "Toggle return from /js command", (args, player) -> {
             if (player.admin) {
                 if (isExcep(player)){
-                    player.sendMessage("[green]Return enabled"));
+                    player.sendMessage("[green]Return enabled");
                     excep.remove(player);
                 } else {
-                    player.sendMessage("[scarlet]Return disabled"));
+                    player.sendMessage("[scarlet]Return disabled");
                     excep.add(player);
                 }
             } else {
