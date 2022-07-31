@@ -1,8 +1,10 @@
 {
-    "name": "JSEval",
+    "name": "jseval",
+    "displayName": "JSEval",
+    "subtitle": "Now available on local servers",
     "description": "Allows admins to execute JavaScript code using a special command.",
-    "author": "Summet",
-    "main": "jseval.JSEval",
-    "version": "1.8",
-    "minGameVersion": "105"
+    "author": "Summet, xzxADIxzx",
+    "version": "1.9",
+    "minGameVersion": "136",
+    "main": "jseval.JSEval"
 }

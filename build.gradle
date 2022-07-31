@@ -8,7 +8,7 @@ repositories {
 }
 
 ext {
-    mindustryVersion = 'v126.2'
+    mindustryVersion = 'v136.1'
 
     config = {
         def configFile = file("$rootDir/src/main/resources/plugin.json")
